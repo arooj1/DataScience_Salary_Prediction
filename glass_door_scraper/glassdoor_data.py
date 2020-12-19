@@ -1,3 +1,5 @@
+# @author Arooj Ahmed Qureshi
+
 import scrapper as gl
 import pandas as pd 
 
