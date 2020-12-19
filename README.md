@@ -21,5 +21,5 @@ https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5
 
 ## RESOURCES 
 #### Data Acquisition
-https://github.com/arapfaik/scraping-glassdoor-selenium
-https://chromedriver.chromium.org/downloads  
+- https://github.com/arapfaik/scraping-glassdoor-selenium
+- https://chromedriver.chromium.org/downloads  
