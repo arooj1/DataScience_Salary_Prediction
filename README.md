@@ -1,12 +1,12 @@
 # ds_salary_proj
 ## PURPOSE
 The idea is to create a data science project from scratch. It will comprise of the following stages:
-## DATA SCIENCE PROJECT
+# DATA SCIENCE PROJECT
 
-### Project Planning
+## Project Planning
 Analyze salaries of **Data Scientists** across NORTH AMERICA using glassdoor data. 
 
-### Data Acquisition
+### 1-Data Acquisition
 A little twist. Instead of acquiring 1000 job data from the USA, I did 500 from the USA and 500 from Canada as Canada is my home country :)
 
 #### Take Aways
@@ -16,16 +16,16 @@ There are a few steps to be careful of.
 
 -	In the code, change the driver path for your system. 
 
-### Data Cleaning
+### 2-Data Cleaning
 Following Data Cleaning steps are applied:
 -  Remove columns with complete b-1 values : Competitors, Headquarters  
 - Salary parsing
-    - Remove all rows with 'Salary Estimate' == '-1'.
-    - Remove text '(Glassdoor estimate)'
-    - Replace CA$, K with a blank space
-    - 'per hour' make a separate column 
-    - 'CAD to US $' make a separate column
-    - extract min , max and average salary. Make sure the data type of these columns is 'integer'
+    - Remove all rows with `'Salary Estimate' == '-1'`.
+    - Remove text `'(Glassdoor estimate)'`
+    - Replace `CA$`, `K` with a blank space
+    - `'per hour'` make a separate column 
+    - `CAD` & US `$` make a separate column
+    - extract `min` , `max` and `average` salary. Make sure the data type of these columns is 'integer'
 
 - company name [text only]
 - State field (if the country is US) otherwise city (Canada). 
@@ -36,9 +36,13 @@ Following Data Cleaning steps are applied:
     	- Cloud computing (GCP, AWS, AZURE)
     	- Analaysis (Excel)
     	- Big Data (Hadoop)
-    	
+
 #### Take Aways 
 It is recommned to work on a separate branch for data cleaning.     	
+
+### 3-Exploratory Data Analysis (EDA)
+
+`Jupyter-Notebook` is used for this purposes rather than `spider`
 
 ## INSPIRATION
 https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=3
