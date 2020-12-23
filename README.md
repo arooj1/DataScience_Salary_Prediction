@@ -1,14 +1,33 @@
-# ds_salary_proj
+# DATA SCIENCE SALARY ESTIMATOR PROJECT
 ## PURPOSE
 The idea is to create a data science project from scratch. It will comprise of the following stages:
-# DATA SCIENCE PROJECT
+
+## CODE
+- Python Version 3.7
+- Packages: Pandas, Selenium, Matplotlib, Pickle, Numpy, Scikit-Learn, Flask
+- For Web Framework: requirements.txt
+
+## INSPIRATION
+https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=3
+
+## RESOURCES 
+#### Data Acquisition
+- https://github.com/arapfaik/scraping-glassdoor-selenium
+- https://chromedriver.chromium.org/downloads  
+#### Model Production / Deployment 
+- https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2 
+#### Statistical Analysis 
+- https://www.w3schools.com/datascience/ds_linear_regression_pvalue.asp 
+#### Productionization
+- https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Project Planning
 Analyze salaries of **Data Scientists** across NORTH AMERICA using glassdoor data. 
 
 ### 1-Data Acquisition
 A little twist. Instead of acquiring 1000 job data from the USA, I did 500 from the USA and 500 from Canada as Canada is my home country :)
-
+#### Data Acquired
+<List all columns>
 #### Take Aways
 There are a few steps to be careful of.
 ##### CHROME DRIVER
@@ -44,14 +63,3 @@ It is recommned to work on a separate branch for data cleaning.
 
 `Jupyter-Notebook` is used for this purposes rather than `spider`
 
-## INSPIRATION
-https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=3
-
-## RESOURCES 
-#### Data Acquisition
-- https://github.com/arapfaik/scraping-glassdoor-selenium
-- https://chromedriver.chromium.org/downloads  
-#### Model Production / Deployment 
-- https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2 
-#### Statistical Analysis 
-- https://www.w3schools.com/datascience/ds_linear_regression_pvalue.asp 
