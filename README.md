@@ -86,8 +86,9 @@ It is recommned to work on a separate branch for data cleaning.
 ## FURTHER TASKS
 The following tasks can be initiated to further explore the salary estimation project:
 
-#### Exploratory Data Analysis - Canada alone or USA 
-The present project has a combined study on Canada and USA jobs. It could have been exclusively for USA and for Canada. That could be an interesting exploration. 
+#### Exploratory Data Analysis (EDA) - Canada alone or USA 
+- The present project has a combined study on Canada and USA jobs. It could have been exclusively for USA and for Canada. That could be an interesting exploration. 
+- Build a EDA dashboard 
 
 #### Explore Few More Regression Models
 
