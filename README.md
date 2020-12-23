@@ -67,6 +67,20 @@ It is recommned to work on a separate branch for data cleaning.
 
 `Jupyter-Notebook` is used for this purposes rather than `spider`
 
+### 4-Model Building
+
+- Lasso Regression Model: Because of the sparse data from many categorical variables, it wouldbe good to normalized regression model (LASSO) to make it more effective. 
+- Random Forest: The tree - like structure of the Random Forest regression model, it is capable of handling data sparsity. 
+
+#### Model Performance
+- Linear Regression:* MAE ~ 19.88
+- Random Forest Regression Model:* MAE ~ 12.99
+
+### 5-Productionization 
+
+
+
+
 ## FURTHER TASKS
 The following tasks can be initiated to further explore the salary estimation project:
 
@@ -74,3 +88,5 @@ The following tasks can be initiated to further explore the salary estimation pr
 The present project has a combined study on Canada and USA jobs. It could have been exclusively for USA and for Canada. That could be an interesting exploration. 
 
 #### Explore Few More Regression Models
+
+
