@@ -31,9 +31,11 @@ Analyze salaries of **Data Scientists** across NORTH AMERICA using glassdoor dat
 ### 1-Data Acquisition
 A little twist. Instead of acquiring 1000 job data from the USA, I did 500 from the USA and 500 from Canada as Canada is my home country :)
 #### Data Acquired
-<List all columns>
+`List all columns`
+
 #### Take Aways
 There are a few steps to be careful of.
+
 ##### CHROME DRIVER
 -	Chrome webdriver version. Make sure it is compatible with your system. 
 
