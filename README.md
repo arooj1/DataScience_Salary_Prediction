@@ -51,3 +51,5 @@ https://www.youtube.com/watch?v=fhi4dOhmW-g&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5
 #### Data Acquisition
 - https://github.com/arapfaik/scraping-glassdoor-selenium
 - https://chromedriver.chromium.org/downloads  
+#### Model Production / Deployment 
+- https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2 
