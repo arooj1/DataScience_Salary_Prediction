@@ -1,6 +1,11 @@
 # DATA SCIENCE SALARY ESTIMATOR PROJECT
+
 ## PURPOSE
-The idea is to create a data science project from scratch. It will comprise of the following stages:
+* The idea is to create a data science project from scratch. The purpose is to predict the expected salary range of a data scientist across North America. 
+* For the project, data is scrapped from the glassdoor website. Around 500 data scientists, jobs data is of USA and 500 of Canada. 
+* Data is cleaned by removing missing salary data and by extracting useful features from it. 
+* The Rain forest regression model predicts salary ~ MAE of 12K and outperforms the linear regression model. 
+* Built a client-facing API using FLASK.
 
 ## CODE
 - Python Version 3.7
