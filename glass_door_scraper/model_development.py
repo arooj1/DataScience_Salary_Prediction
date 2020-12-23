@@ -40,6 +40,8 @@ X_sm = sm.add_constant(X_train)
 model = sm.OLS(y_train,X_sm)
 print(model.fit().summary())
 
+
+
 # Sklearn Linear Regression 
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.model_selection import cross_val_score
@@ -114,3 +116,32 @@ print('MAE random forest regression: ', mae(y_test, ypred_rf))
 ens_lml_rf = (ypred_lml+ypred_rf)/2
 print('MAE Ensemble regression: ', mae(y_test, ens_lml_rf))
 
+'''
+=============================================================================== 
+===============================================================================
+For production purposes - Model API will be created using FLASK. 
+===============================================================================
+===============================================================================
+'''
+# STEP-1: pickle the trained model. 
+
+import pickle
+pickl = {'model': gs.best_estimator_}
+pickle.dump( pickl, open( 'salary_model' + ".p", "wb" ) )
+
+# Test Model by loading it. 
+file_name = "salary_model.p"
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+    
+
+## Make a dummy file with one of the test data
+test_case = (X_test.iloc[10:20].values)
+test_case.shape
+predicted_salary = model.predict(test_case)
+expected_salary = y_test[10:20]
+
+print('=======  Test use case result  ==============')
+print('Predicted: ', np.round(predicted_salary,1))
+print('Expected: ', expected_salary)
