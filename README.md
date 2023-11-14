@@ -6,6 +6,7 @@
 * Data is cleaned by removing missing salary data and by extracting useful features from it. 
 * The Rain forest regression model predicts salary ~ MAE of 12K and outperforms the linear regression model. 
 * Built a client-facing API using FLASK.
+* The app is not finished yet. 
 
 ## CODE
 - Python Version 3.7
